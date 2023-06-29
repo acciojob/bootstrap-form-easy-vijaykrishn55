@@ -31,20 +31,22 @@
 			</div>
 			<div class="form-group col-md-3">
 				<label for="grad-year-select">Graduation Year</label>
-				 <select class="form-control" id="gy" required>
-					 <option >Choose..</option>
-					 <option >Choose..</option>
-					 <option >Choose..</option>
+				 <select class="form-control" id="grad-year-select" required>
+					 <option disabled selected>Choose..</option>
+					 <option value="1" >2020</option>
+					 <option value="2">2021</option>
+					 <option value="3">2022</option>
+					 <option value="4">2023</option>
 				 </select>
 			</div>
 			<div class="form-group col-md-3">
 				<label for="roll-no-input">Roll No</label>
-			    <input type="number" class="form-control" id="RollNo" maxlength="8" required>
+			    <input type="number" class="form-control" id="roll-no-input" maxlength="8" required>
 			</div>
 		</div>
 		<div class="form-check">
-			<input class="from-check-input" type="checkbox" id="check-box" required>
-			<label class="conditions-checkbox" for="check-box">Agree to terms and conditions</label>
+			<input class="from-check-input" type="checkbox" id="from-check-input" required>
+			<label class="conditions-checkbox" for="from-check-input">Agree to terms and conditions</label>
 		</div>
 		<button type="submit" class="btn btn-primary">submit form</button>
 	</form>
